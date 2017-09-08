@@ -1,0 +1,6 @@
+<h3 *ngIf="isAuthenticated()">Please select a Recipe!</h3>
+<div *ngIf="!isAuthenticated()">
+    <h3>Please select a Recipe!</h3>
+    <h4>Some features are not available for you, until you are not logged in!</h4>
+</div>
+
